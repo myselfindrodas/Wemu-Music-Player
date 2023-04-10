@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "471254112440",
+    "project_id": "wemu-df50e",
+    "storage_bucket": "wemu-df50e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471254112440:android:bbb25278609bb0aa9afc4d",
+        "android_client_info": {
+          "package_name": "com.shyamfuture.wemu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471254112440-q9imop49b9c1bpmep06nls5jff1amhdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shyamfuture.wemu",
+            "certificate_hash": "01532e81307892a7999c02cf2cae0bcaa85b426d"
+          }
+        },
+        {
+          "client_id": "471254112440-comu3jpmlul63ovm6hkdkhg536fandha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQ4AINpRFH3u5JdhSCa3ii5iJzjwjQ2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471254112440-comu3jpmlul63ovm6hkdkhg536fandha.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471254112440-8fa86h21oqkrlkrjkp7svupma3dksn2o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wemu.sft"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471254112440:android:91444848b51708849afc4d",
+        "android_client_info": {
+          "package_name": "com.onlinemusic.wemu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471254112440-ck9igds0v8sv02cka8hu5rvpj19g3ir5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onlinemusic.wemu",
+            "certificate_hash": "01532e81307892a7999c02cf2cae0bcaa85b426d"
+          }
+        },
+        {
+          "client_id": "471254112440-comu3jpmlul63ovm6hkdkhg536fandha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQ4AINpRFH3u5JdhSCa3ii5iJzjwjQ2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471254112440-comu3jpmlul63ovm6hkdkhg536fandha.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471254112440-8fa86h21oqkrlkrjkp7svupma3dksn2o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wemu.sft"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

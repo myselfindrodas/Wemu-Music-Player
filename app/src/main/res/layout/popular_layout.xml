@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnEventdetails"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="@dimen/_7sdp">
+
+            <ImageView
+                android:id="@+id/imgBanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/popularsongpic" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110sdp"
+                android:background="@drawable/layer"
+                android:orientation="vertical" />
+
+        </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/menu_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/btnEventdetails"
+        android:elevation="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        app:layout_constraintEnd_toEndOf="@+id/btnEventdetails"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/play_icon"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            style="@style/isPlayIconSrc"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/option"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/play_icon"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/menu_icon"
+            app:tint="@color/orange" />
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/imgTitle"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            app:layout_constraintTop_toBottomOf="@+id/btnEventdetails"
+            app:layout_constraintStart_toStartOf="@+id/btnEventdetails"
+            app:layout_constraintEnd_toEndOf="@+id/btnEventdetails"
+            android:fontFamily="@font/poppinsregular"
+            android:ellipsize="end"
+            android:text="Tutu - Camilo, abcz"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:textSize="@dimen/_10sdp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

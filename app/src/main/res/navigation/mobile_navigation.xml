@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.onlinemusic.wemu.fragment.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_genres"
+        android:name="com.onlinemusic.wemu.fragment.GenresFragment"
+        android:label="Genres Fragment"
+        tools:layout="@layout/fragment_genres" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.onlinemusic.wemu.fragment.LibraryFragment"
+        android:label="Library Fragment"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.onlinemusic.wemu.fragment.ProfileFragment"
+        android:label="Profile Fragment"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_recentlyplayed"
+        android:name="com.onlinemusic.wemu.fragment.RecentlyplayedFragment"
+        android:label="Recently Played"
+        tools:layout="@layout/fragment_recentlyplayed" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.onlinemusic.wemu.fragment.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_album_details"
+        android:name="com.onlinemusic.wemu.fragment.AlbumDetailsFragment"
+        android:label="Album_Details"
+        tools:layout="@layout/activity_albumdetails" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_favourite"
+        android:name="com.onlinemusic.wemu.fragment.FavouriteFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_favourite" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_playlist"
+        android:name="com.onlinemusic.wemu.fragment.PlaylistFragment"
+        android:label="Playlist"
+        tools:layout="@layout/fragment_playlist" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_album"
+        android:name="com.onlinemusic.wemu.fragment.AlbumFragment"
+        android:label="Album"
+        tools:layout="@layout/fragment_album" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_newmusic"
+        android:name="com.onlinemusic.wemu.fragment.NewmusicFragment"
+        android:label="New Music"
+        tools:layout="@layout/fragment_newmusic" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_topmusic"
+        android:name="com.onlinemusic.wemu.fragment.TopmusicFragment"
+        android:label="New Music"
+        tools:layout="@layout/fragment_topmusic" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_profiledetails"
+        android:name="com.onlinemusic.wemu.fragment.ProfiledetailsFragment"
+        android:label="Profile Details"
+        tools:layout="@layout/fragment_profiledetails" >
+        <action
+            android:id="@+id/confirmationAction"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+ <fragment
+        android:id="@+id/nav_artist"
+        android:name="com.onlinemusic.wemu.fragment.ArtistFragment"
+        android:label="Artist"
+        tools:layout="@layout/fragment_artist" >
+     <action
+         android:id="@+id/confirmationAction"
+         app:enterAnim="@anim/fade_in"
+         app:exitAnim="@anim/fade_out"
+         app:popEnterAnim="@anim/fade_in"
+         app:popExitAnim="@anim/fade_out"
+         app:popUpToInclusive="true" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_artist_songs"
+        android:name="com.onlinemusic.wemu.fragment.ArtistSongsFragment"
+        android:label="Artist Songs"
+        tools:layout="@layout/fragment_artist_songs" >
+    <action
+        android:id="@+id/confirmationAction"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        app:popUpToInclusive="true" />
+    </fragment>
+
+
+       <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.onlinemusic.wemu.fragment.NotificationFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notification" >
+    <action
+        android:id="@+id/confirmationAction"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        app:popUpToInclusive="true" />
+    </fragment>
+
+       <fragment
+        android:id="@+id/nav_playlistDetails"
+        android:name="com.onlinemusic.wemu.fragment.PlaylistDetailsFragment"
+        android:label="PlayListDetails"
+        tools:layout="@layout/fragment_playlist_details" >
+    <action
+        android:id="@+id/confirmationAction"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        app:popUpToInclusive="true" />
+    </fragment>
+
+
+
+
+  <fragment
+        android:id="@+id/nav_search_more"
+        android:name="com.onlinemusic.wemu.fragment.SearchMoreElementFragment"
+        android:label="Search More"
+        tools:layout="@layout/fragment_search_more_element" >
+    <action
+        android:id="@+id/confirmationAction"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        app:popUpToInclusive="true" />
+    </fragment>
+
+     <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.onlinemusic.wemu.fragment.ProfileSettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_profile_settings" >
+    <action
+        android:id="@+id/confirmationAction"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        app:popUpToInclusive="true" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
+</navigation>
